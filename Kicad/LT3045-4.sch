@@ -36,7 +36,7 @@ F 3 "" H 5200 2050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Regulator_Linear:LT3042 U1
+L LT3045-4-rescue:LT3042-Regulator_Linear-LNA-rescue U1
 U 1 1 5F2966C9
 P 5000 1150
 F 0 "U1" H 5025 1715 50  0000 C CNN
@@ -257,7 +257,7 @@ $EndComp
 Wire Wire Line
 	2700 900  2950 900 
 $Comp
-L Device:C_SPLIT C3
+L LT3045-4-rescue:C_SPLIT-Device-LNA-rescue C3
 U 1 1 5F3E0394
 P 5850 1350
 F 0 "C3" H 5706 1304 50  0000 R CNN
@@ -311,7 +311,7 @@ F 3 "" H 5200 3900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Regulator_Linear:LT3042 U2
+L LT3045-4-rescue:LT3042-Regulator_Linear-LNA-rescue U2
 U 1 1 5F43CBE8
 P 5000 3000
 F 0 "U2" H 5000 3050 50  0000 C CNN
@@ -370,7 +370,7 @@ Wire Wire Line
 Text Notes 6500 2800 1    50   ~ 0
 50mOhm\nTrace
 $Comp
-L Device:C_SPLIT C7
+L LT3045-4-rescue:C_SPLIT-Device-LNA-rescue C7
 U 1 1 5F43CC30
 P 5850 3200
 F 0 "C7" H 5706 3154 50  0000 R CNN
@@ -413,7 +413,7 @@ F 3 "" H 5200 5650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Regulator_Linear:LT3042 U3
+L LT3045-4-rescue:LT3042-Regulator_Linear-LNA-rescue U3
 U 1 1 5F442849
 P 5000 4750
 F 0 "U3" H 5000 4850 50  0000 C CNN
@@ -472,7 +472,7 @@ Wire Wire Line
 Text Notes 6500 4600 1    50   ~ 0
 50mOhm\nTrace
 $Comp
-L Device:C_SPLIT C8
+L LT3045-4-rescue:C_SPLIT-Device-LNA-rescue C8
 U 1 1 5F442891
 P 5850 4950
 F 0 "C8" H 5706 4904 50  0000 R CNN
@@ -515,7 +515,7 @@ F 3 "" H 5200 7500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Regulator_Linear:LT3042 U4
+L LT3045-4-rescue:LT3042-Regulator_Linear-LNA-rescue U4
 U 1 1 5F44B383
 P 5000 6600
 F 0 "U4" H 5000 6700 50  0000 C CNN
@@ -574,7 +574,7 @@ Wire Wire Line
 Text Notes 6550 6400 1    50   ~ 0
 50mOhm\nTrace
 $Comp
-L Device:C_SPLIT C9
+L LT3045-4-rescue:C_SPLIT-Device-LNA-rescue C9
 U 1 1 5F44B3CB
 P 5850 6800
 F 0 "C9" H 5706 6754 50  0000 R CNN
@@ -741,10 +741,10 @@ Wire Wire Line
 Text Label 3500 2750 0    50   ~ 0
 VIN
 $Comp
-L Device:R_US R?
+L Device:R_US R1
 U 1 1 5FCF17CA
 P 4250 1250
-F 0 "R?" H 4318 1296 50  0000 L CNN
+F 0 "R1" H 4318 1296 50  0000 L CNN
 F 1 "200k" H 4318 1205 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 4290 1240 50  0001 C CNN
 F 3 "~" H 4250 1250 50  0001 C CNN
