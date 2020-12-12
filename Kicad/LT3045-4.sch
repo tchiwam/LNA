@@ -675,10 +675,6 @@ Wire Wire Line
 Wire Wire Line
 	2300 1500 1700 1500
 Wire Wire Line
-	4200 1750 4000 1750
-Wire Wire Line
-	4000 1750 4000 3600
-Wire Wire Line
 	4000 3600 4750 3600
 Wire Wire Line
 	4750 3600 4750 3500
@@ -686,17 +682,7 @@ Connection ~ 4200 1750
 Wire Wire Line
 	4750 5250 4750 5350
 Wire Wire Line
-	4750 5350 4000 5350
-Wire Wire Line
-	4000 5350 4000 3600
-Connection ~ 4000 3600
-Wire Wire Line
 	4750 7100 4750 7200
-Wire Wire Line
-	4750 7200 4000 7200
-Wire Wire Line
-	4000 7200 4000 5350
-Connection ~ 4000 5350
 Connection ~ 4200 2200
 Wire Wire Line
 	4550 3000 4400 3000
@@ -783,4 +769,99 @@ Wire Wire Line
 	4200 2200 4200 4150
 Wire Wire Line
 	5750 3450 5750 4150
+$Comp
+L Device:C C4
+U 1 1 5FD57A1A
+P 3950 2000
+F 0 "C4" H 4065 2046 50  0000 L CNN
+F 1 "4.7µF 35V" H 4065 1955 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 3988 1850 50  0001 C CNN
+F 3 "~" H 3950 2000 50  0001 C CNN
+	1    3950 2000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C5
+U 1 1 5FD5D837
+P 4000 3850
+F 0 "C5" H 4115 3896 50  0000 L CNN
+F 1 "4.7µF 35V" H 4115 3805 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 4038 3700 50  0001 C CNN
+F 3 "~" H 4000 3850 50  0001 C CNN
+	1    4000 3850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C6
+U 1 1 5FD6373A
+P 4000 5600
+F 0 "C6" H 4115 5646 50  0000 L CNN
+F 1 "4.7µF 35V" H 4115 5555 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 4038 5450 50  0001 C CNN
+F 3 "~" H 4000 5600 50  0001 C CNN
+	1    4000 5600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C11
+U 1 1 5FD69ACD
+P 4000 7450
+F 0 "C11" H 4115 7496 50  0000 L CNN
+F 1 "4.7µF 35V" H 4115 7405 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 4038 7300 50  0001 C CNN
+F 3 "~" H 4000 7450 50  0001 C CNN
+	1    4000 7450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3950 1750 3950 1850
+Connection ~ 3950 1750
+Wire Wire Line
+	3950 1750 4200 1750
+Wire Wire Line
+	4000 3700 4000 3600
+Wire Wire Line
+	3750 1750 3750 3600
+Wire Wire Line
+	3750 3600 4000 3600
+Wire Wire Line
+	3750 1750 3950 1750
+Connection ~ 4000 3600
+Wire Wire Line
+	3750 3600 3750 5350
+Wire Wire Line
+	3750 5350 4000 5350
+Connection ~ 3750 3600
+Wire Wire Line
+	4000 5450 4000 5350
+Connection ~ 4000 5350
+Wire Wire Line
+	4000 5350 4750 5350
+Wire Wire Line
+	4200 5950 4000 5950
+Wire Wire Line
+	4000 5950 4000 5750
+Wire Wire Line
+	4200 4150 4000 4150
+Wire Wire Line
+	4000 4150 4000 4000
+Wire Wire Line
+	4200 2200 3950 2200
+Wire Wire Line
+	3950 2200 3950 2150
+Wire Wire Line
+	3750 5350 3750 7200
+Connection ~ 3750 5350
+Wire Wire Line
+	3750 7200 4000 7200
+Wire Wire Line
+	4000 7300 4000 7200
+Connection ~ 4000 7200
+Wire Wire Line
+	4000 7200 4750 7200
+Wire Wire Line
+	4000 7600 4000 7750
+Wire Wire Line
+	4000 7750 4200 7750
+Connection ~ 4200 7750
 $EndSCHEMATC
