@@ -4,9 +4,9 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
-Title ""
-Date ""
-Rev ""
+Title "LT3045/LT3042-4"
+Date "2020-12-14"
+Rev "0.5"
 Comp ""
 Comment1 ""
 Comment2 ""
@@ -105,7 +105,7 @@ L Connector:Conn_Coaxial_Power J2
 U 1 1 5F2AF5F6
 P 10350 1150
 F 0 "J2" H 10438 1146 50  0000 L CNN
-F 1 "Conn_Coaxial_Power" H 10438 1055 50  0000 L CNN
+F 1 "Conn_Coaxial_Power" H 10438 1055 50  0001 L CNN
 F 2 "Connector_Coaxial:SMA_Amphenol_132289_EdgeMount" H 10350 1100 50  0001 C CNN
 F 3 "~" H 10350 1100 50  0001 C CNN
 	1    10350 1150
@@ -197,8 +197,8 @@ $Comp
 L Connector:Conn_Coaxial_Power J1
 U 1 1 5F2AD177
 P 650 1150
-F 0 "J1" H 738 1146 50  0000 L CNN
-F 1 "Conn_Coaxial_Power" H 738 1055 50  0000 L CNN
+F 0 "J1" H 450 1100 50  0000 L CNN
+F 1 "Conn_Coaxial_Power" H 50  650 50  0001 L CNN
 F 2 "Connector_Coaxial:SMA_Amphenol_132289_EdgeMount" H 650 1100 50  0001 C CNN
 F 3 "~" H 650 1100 50  0001 C CNN
 	1    650  1150
@@ -1013,8 +1013,8 @@ $Comp
 L Device:Common_Mode_Choke L1
 U 1 1 6094D9EE
 P 1350 900
-F 0 "L1" H 1350 1181 50  0000 C CNN
-F 1 "DLW5BTH101TQ2L" H 1350 1090 50  0000 C CNN
+F 0 "L1" H 1350 1250 50  0000 C CNN
+F 1 "DLW5BTH101TQ2L" H 1350 1150 50  0000 C CNN
 F 2 "Transformer_SMD:CMC_DLW5BTH" H 1350 900 50  0001 C CNN
 F 3 "~" H 1350 900 50  0001 C CNN
 	1    1350 900 
