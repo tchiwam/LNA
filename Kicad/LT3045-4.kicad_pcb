@@ -1628,7 +1628,7 @@
   (gr_text "Power Output\n4xLT3045 : 0 to 15VDC @ 2000mA\n4xLT3042 : 0 to 15VDC @  800mA\nNoise : 0.4µVrms" (at 66.6 17.2) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)) (justify left))
   )
-  (gr_text "Power input:\n3.8 to 20VDC\nIsolate connector ground\n260mV < (Vin - Vout) < 8.5V" (at 10.4 8.6) (layer F.SilkS)
+  (gr_text "Power input:\n3.8 to 20VDC\nIsolate connector ground\nLT3045 260mV < (Vin - Vout) < 8.5V\nLT3042 350mV < (Vin - Vout) < 8.5V" (at 10.4 8.6) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)) (justify left))
   )
   (gr_text "4X LT3045 / LT3042" (at 20.1 42) (layer F.SilkS)

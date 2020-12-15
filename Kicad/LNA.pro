@@ -1,4 +1,4 @@
-update=Thu 13 Aug 2020 09:15:38 PM UTC
+update=Tue 15 Dec 2020 12:47:30 AM UTC
 version=1
 last_client=kicad
 [general]
@@ -25,7 +25,7 @@ ERC_TestSimilarLabels=1
 [pcbnew]
 version=1
 PageLayoutDescrFile=
-LastNetListRead=LNA.net
+LastNetListRead=QPL9065.net
 CopperLayerCount=4
 BoardThickness=1.6
 AllowMicroVias=0
