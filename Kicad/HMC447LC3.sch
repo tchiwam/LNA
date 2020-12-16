@@ -1,0 +1,312 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title "QPL9065"
+Date "2020-12-15"
+Rev "0.5"
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Device:C C3
+U 1 1 5FD86A1A
+P 7050 2900
+F 0 "C3" H 7165 2946 50  0000 L CNN
+F 1 "100pF" H 7165 2855 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 7088 2750 50  0001 C CNN
+F 3 "~" H 7050 2900 50  0001 C CNN
+	1    7050 2900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C4
+U 1 1 5FD87039
+P 6500 2900
+F 0 "C4" H 6615 2946 50  0000 L CNN
+F 1 "10nF" H 6615 2855 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 6538 2750 50  0001 C CNN
+F 3 "~" H 6500 2900 50  0001 C CNN
+	1    6500 2900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:CP C5
+U 1 1 5FD877CD
+P 5950 2900
+F 0 "C5" H 6065 2946 50  0000 L CNN
+F 1 "2.2µF" H 6065 2855 50  0000 L CNN
+F 2 "Capacitor_SMD:C_1206_3216Metric" H 5988 2750 50  0001 C CNN
+F 3 "~" H 5950 2900 50  0001 C CNN
+	1    5950 2900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6500 3150 6500 3050
+$Comp
+L power:GND #PWR0104
+U 1 1 5FD9E4A2
+P 6500 3300
+F 0 "#PWR0104" H 6500 3050 50  0001 C CNN
+F 1 "GND" H 6505 3127 50  0000 C CNN
+F 2 "" H 6500 3300 50  0001 C CNN
+F 3 "" H 6500 3300 50  0001 C CNN
+	1    6500 3300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6500 3300 6500 3150
+Connection ~ 6500 3150
+Wire Wire Line
+	6500 3150 7050 3150
+Wire Wire Line
+	7050 3150 7050 3050
+Wire Wire Line
+	7050 2650 7050 2750
+$Comp
+L Connector:Conn_Coaxial J1
+U 1 1 5FDA97A4
+P 3100 3600
+F 0 "J1" H 3250 3650 50  0000 C CNN
+F 1 "Conn_Coaxial" H 3450 3550 50  0001 C CNN
+F 2 "Connector_Coaxial:SMA_Amphenol_132289_EdgeMount-RF" H 3100 3600 50  0001 C CNN
+F 3 " ~" H 3100 3600 50  0001 C CNN
+	1    3100 3600
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_Coaxial J2
+U 1 1 5FDABC0F
+P 6250 3600
+F 0 "J2" H 6350 3650 50  0000 L CNN
+F 1 "Conn_Coaxial" H 6350 3550 50  0001 L CNN
+F 2 "Connector_Coaxial:SMA_Amphenol_132289_EdgeMount-RF" H 6250 3600 50  0001 C CNN
+F 3 " ~" H 6250 3600 50  0001 C CNN
+	1    6250 3600
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0105
+U 1 1 5FDB542F
+P 3100 3900
+F 0 "#PWR0105" H 3100 3650 50  0001 C CNN
+F 1 "GND" H 3105 3727 50  0000 C CNN
+F 2 "" H 3100 3900 50  0001 C CNN
+F 3 "" H 3100 3900 50  0001 C CNN
+	1    3100 3900
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0106
+U 1 1 5FDB636A
+P 6250 3900
+F 0 "#PWR0106" H 6250 3650 50  0001 C CNN
+F 1 "GND" H 6255 3727 50  0000 C CNN
+F 2 "" H 6250 3900 50  0001 C CNN
+F 3 "" H 6250 3900 50  0001 C CNN
+	1    6250 3900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6250 3800 6250 3900
+Wire Wire Line
+	3100 3800 3100 3900
+$Comp
+L Connector:Conn_Coaxial_Power J3
+U 1 1 5FDD017F
+P 5600 2800
+F 0 "J3" H 5688 2750 50  0000 L CNN
+F 1 "Conn_Coaxial_Power" H 5688 2705 50  0001 L CNN
+F 2 "Connector_Coaxial:SMA_Amphenol_132289_EdgeMount-RF" H 5600 2750 50  0001 C CNN
+F 3 "~" H 5600 2750 50  0001 C CNN
+	1    5600 2800
+	1    0    0    -1  
+$EndComp
+Text Label 5750 3600 0    50   ~ 0
+RFout
+$Comp
+L power:VDC #PWR0107
+U 1 1 5FDE1C84
+P 5600 2550
+F 0 "#PWR0107" H 5600 2450 50  0001 C CNN
+F 1 "VDC" H 5600 2825 50  0000 C CNN
+F 2 "" H 5600 2550 50  0001 C CNN
+F 3 "" H 5600 2550 50  0001 C CNN
+	1    5600 2550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5950 3050 5950 3150
+$Comp
+L Device:C C2
+U 1 1 5FEB67DA
+P 5550 3600
+F 0 "C2" V 5802 3600 50  0000 C CNN
+F 1 "100pF" V 5711 3600 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 5588 3450 50  0001 C CNN
+F 3 "~" H 5550 3600 50  0001 C CNN
+	1    5550 3600
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5700 3600 6050 3600
+$Comp
+L Device:C C1
+U 1 1 5FF0BFEF
+P 3600 3600
+F 0 "C1" V 3852 3600 50  0000 C CNN
+F 1 "10pF" V 3761 3600 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 3638 3450 50  0001 C CNN
+F 3 "~" H 3600 3600 50  0001 C CNN
+	1    3600 3600
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad MH4
+U 1 1 5FF5F18D
+P 7350 5050
+F 0 "MH4" H 7250 5250 50  0000 L CNN
+F 1 "MountingHole_Pad" H 7450 5008 50  0001 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3" H 7350 5050 50  0001 C CNN
+F 3 "~" H 7350 5050 50  0001 C CNN
+	1    7350 5050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad MH3
+U 1 1 5FF604AB
+P 7050 5050
+F 0 "MH3" H 6950 5250 50  0000 L CNN
+F 1 "MountingHole_Pad" H 7150 5008 50  0001 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3" H 7050 5050 50  0001 C CNN
+F 3 "~" H 7050 5050 50  0001 C CNN
+	1    7050 5050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad MH1
+U 1 1 5FF6259C
+P 6450 5050
+F 0 "MH1" H 6350 5250 50  0000 L CNN
+F 1 "MountingHole_Pad" H 6550 5008 50  0001 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3" H 6450 5050 50  0001 C CNN
+F 3 "~" H 6450 5050 50  0001 C CNN
+	1    6450 5050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad MH2
+U 1 1 5FF647B7
+P 6750 5050
+F 0 "MH2" H 6650 5250 50  0000 L CNN
+F 1 "MountingHole_Pad" H 6850 5008 50  0001 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3" H 6750 5050 50  0001 C CNN
+F 3 "~" H 6750 5050 50  0001 C CNN
+	1    6750 5050
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0111
+U 1 1 5FF8264C
+P 6900 5300
+F 0 "#PWR0111" H 6900 5050 50  0001 C CNN
+F 1 "GND" H 6905 5127 50  0000 C CNN
+F 2 "" H 6900 5300 50  0001 C CNN
+F 3 "" H 6900 5300 50  0001 C CNN
+	1    6900 5300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7350 5150 7350 5250
+Wire Wire Line
+	7350 5250 7050 5250
+Wire Wire Line
+	6900 5250 6900 5300
+Wire Wire Line
+	6450 5150 6450 5250
+Wire Wire Line
+	6450 5250 6750 5250
+Connection ~ 6900 5250
+Wire Wire Line
+	6750 5150 6750 5250
+Connection ~ 6750 5250
+Wire Wire Line
+	6750 5250 6900 5250
+Wire Wire Line
+	7050 5150 7050 5250
+Connection ~ 7050 5250
+Wire Wire Line
+	7050 5250 6900 5250
+Wire Wire Line
+	5600 2550 5600 2650
+Wire Wire Line
+	6500 2750 6500 2650
+Wire Wire Line
+	6500 2650 7050 2650
+Wire Wire Line
+	5950 2750 5950 2650
+Wire Wire Line
+	5950 2650 6500 2650
+Connection ~ 6500 2650
+Wire Wire Line
+	5950 3150 6500 3150
+Wire Wire Line
+	5600 3000 5600 3150
+Wire Wire Line
+	5600 3150 5950 3150
+Connection ~ 5950 3150
+Wire Wire Line
+	5950 2650 5600 2650
+Connection ~ 5950 2650
+Connection ~ 5600 2650
+Wire Wire Line
+	5600 2650 5600 2700
+$Comp
+L RF:HMC447LC3 U1
+U 1 1 5FDB825E
+P 4500 3550
+F 0 "U1" H 4400 3550 50  0000 L CNN
+F 1 "HMC447LC3" H 4250 3450 50  0000 L CNN
+F 2 "Package_DFN_QFN:UQFN-16-1EP_3x3mm_P0.5mm_HMC447LC3" H 4500 3500 50  0001 C CNN
+F 3 "" H 4500 3500 50  0001 C CNN
+	1    4500 3550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5600 2650 4550 2650
+Wire Wire Line
+	4550 2650 4550 3050
+Wire Wire Line
+	4550 2650 4450 2650
+Wire Wire Line
+	4450 2650 4450 3050
+Connection ~ 4550 2650
+Wire Wire Line
+	3750 3600 3900 3600
+Wire Wire Line
+	3300 3600 3450 3600
+Wire Wire Line
+	5050 3600 5400 3600
+Text Label 3350 3600 0    50   ~ 0
+RFin
+$Comp
+L power:GND #PWR?
+U 1 1 5FD9CA74
+P 3900 3950
+F 0 "#PWR?" H 3900 3700 50  0001 C CNN
+F 1 "GND" H 3905 3777 50  0000 C CNN
+F 2 "" H 3900 3950 50  0001 C CNN
+F 3 "" H 3900 3950 50  0001 C CNN
+	1    3900 3950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4400 3750 3900 3750
+Wire Wire Line
+	3900 3750 3900 3950
+$EndSCHEMATC

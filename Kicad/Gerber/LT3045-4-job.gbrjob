@@ -7,7 +7,7 @@
       "Application": "Pcbnew",
       "Version":     "5.1.7"
     },
-    "CreationDate":  "2020-12-14T19:51:55+00:00"
+    "CreationDate":  "2020-12-15T22:06:53+00:00"
   },
   "GeneralSpecs":
   {
@@ -69,6 +69,11 @@
       "FilePolarity":  "Positive"
     },
     {
+      "Path":  "LT3045-4-F_Paste.gbr",
+      "FileFunction":  "SolderPaste,Top",
+      "FilePolarity":  "Positive"
+    },
+    {
       "Path":  "LT3045-4-F_SilkS.gbr",
       "FileFunction":  "Legend,Top",
       "FilePolarity":  "Positive"
@@ -94,6 +99,10 @@
     {
       "Type":  "Legend",
       "Notes":  "Layer F.SilkS"
+    },
+    {
+      "Type":  "SolderPaste",
+      "Notes":  "Layer F.Paste"
     },
     {
       "Type":  "SolderMask",
