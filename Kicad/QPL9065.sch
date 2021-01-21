@@ -298,7 +298,7 @@ U 1 1 5FDD017F
 P 5600 2300
 F 0 "J3" H 5688 2250 50  0000 L CNN
 F 1 "Conn_Coaxial_Power" H 5688 2205 50  0001 L CNN
-F 2 "Connector_Coaxial:SMA_Amphenol_132289_EdgeMount-RF" H 5600 2250 50  0001 C CNN
+F 2 "Connector_Coaxial:132147-48" H 5600 2250 50  0001 C CNN
 F 3 "~" H 5600 2250 50  0001 C CNN
 	1    5600 2300
 	1    0    0    -1  
