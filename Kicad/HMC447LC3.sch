@@ -4,8 +4,8 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
-Title "QPL9065"
-Date "2020-12-15"
+Title "HMC447LC3"
+Date "2020-12-16"
 Rev "0.5"
 Comp ""
 Comment1 ""
@@ -295,10 +295,10 @@ Wire Wire Line
 Text Label 3350 3600 0    50   ~ 0
 RFin
 $Comp
-L power:GND #PWR?
+L power:GND #PWR0101
 U 1 1 5FD9CA74
 P 3900 3950
-F 0 "#PWR?" H 3900 3700 50  0001 C CNN
+F 0 "#PWR0101" H 3900 3700 50  0001 C CNN
 F 1 "GND" H 3905 3777 50  0000 C CNN
 F 2 "" H 3900 3950 50  0001 C CNN
 F 3 "" H 3900 3950 50  0001 C CNN

@@ -246,7 +246,7 @@ U 1 1 5FDA97A4
 P 3050 3750
 F 0 "J1" H 3200 3800 50  0000 C CNN
 F 1 "Conn_Coaxial" H 3400 3700 50  0001 C CNN
-F 2 "Connector_Coaxial:SMA_Amphenol_132289_EdgeMount-RF" H 3050 3750 50  0001 C CNN
+F 2 "Connector_Coaxial:‎142-1701-626‎" H 3050 3750 50  0001 C CNN
 F 3 " ~" H 3050 3750 50  0001 C CNN
 	1    3050 3750
 	-1   0    0    -1  
@@ -257,7 +257,7 @@ U 1 1 5FDABC0F
 P 7950 3750
 F 0 "J2" H 8050 3800 50  0000 L CNN
 F 1 "Conn_Coaxial" H 8050 3700 50  0001 L CNN
-F 2 "Connector_Coaxial:SMA_Amphenol_132289_EdgeMount-RF" H 7950 3750 50  0001 C CNN
+F 2 "Connector_Coaxial:‎142-1701-626‎" H 7950 3750 50  0001 C CNN
 F 3 " ~" H 7950 3750 50  0001 C CNN
 	1    7950 3750
 	1    0    0    -1  
@@ -293,7 +293,7 @@ Wire Wire Line
 Wire Wire Line
 	4150 3150 4650 3150
 $Comp
-L Connector:Conn_Coaxial_Power J3
+L Connector:132147-48 J3
 U 1 1 5FDD017F
 P 5600 2300
 F 0 "J3" H 5688 2250 50  0000 L CNN
